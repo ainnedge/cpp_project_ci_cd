@@ -7,7 +7,10 @@ namespace cppProjectCiCd{
 	}
 
 	int mul(int _num1, int _num2){
-		return _num1 * _num2;
+		return (_num1 * _num2);
+	}
+	int div(int _num1, int _num2){
+		return (_num1 / _num2);
 	}
 } // namespace cppProjectCiCd
 
