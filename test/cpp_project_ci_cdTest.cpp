@@ -18,3 +18,11 @@ TEST(GtestTester, mulTest2) {
   EXPECT_EQ( result, n1 * n2 );
 }
 
+TEST(GtestTester, divTest1) {
+  const int n1 = 207;
+  const int n2 = 23;
+  const int result = cppProjectCiCd::div(n1, n2);
+  
+  EXPECT_EQ( result, n1 / n2 );
+}
+
