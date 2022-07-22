@@ -2,8 +2,16 @@
 
 #include <gtest/gtest.h>
 
-TEST(GtestTester, mulTest) {
+TEST(GtestTester, mulTest1) {
   const int n1 = 7;
+  const int n2 = 3;
+  const int result = cppProjectCiCd::mul(n1, n2);
+  
+  EXPECT_EQ( result, n1 * n2 );
+}
+
+TEST(GtestTester, mulTest2) {
+  const int n1 = -7;
   const int n2 = 3;
   const int result = cppProjectCiCd::mul(n1, n2);
   
