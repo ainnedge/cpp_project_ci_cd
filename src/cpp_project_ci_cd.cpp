@@ -1,6 +1,6 @@
-#include <cpp_project_ci_cd/sample.h>
+#include <cpp_project_ci_cd/cpp_project_ci_cd.h>
 
-namespace sample{
+namespace cppProjectCiCd{
 
 	std::string sayHello(){
 		return "Hi from sample module of cpp-project-ci-cd";
@@ -9,5 +9,5 @@ namespace sample{
 	int mul(int _num1, int _num2){
 		return _num1 * _num2;
 	}
-} // namespace sample
+} // namespace cppProjectCiCd
 

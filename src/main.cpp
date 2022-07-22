@@ -1,9 +1,9 @@
-#include <cpp_project_ci_cd/sample.h>
+#include <cpp_project_ci_cd/cpp_project_ci_cd.h>
 
 #include <iostream>
 
 int main(int argc, char **argv){
-	std::cout << sample::sayHello() << std::endl;
+	std::cout << cppProjectCiCd::sayHello() << std::endl;
 	
 	return 0;
 }
