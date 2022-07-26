@@ -1,6 +1,7 @@
 #pragma once
 
 #include <iostream>
+#include "../../src/dalpha_pcidrif.c"
 
 namespace cppProjectCiCd {
 

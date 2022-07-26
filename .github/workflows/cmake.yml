@@ -29,4 +29,7 @@ jobs:
     
     - name: Run Test
       run: /home/runner/work/cpp_project_ci_cd/cpp_project_ci_cd/build/test/cpp_project_ci_cd.test
+
+    - name: Run PCI Test
+      run: /home/runner/work/cpp_project_ci_cd/cpp_project_ci_cd/build/src/cpp_project_ci_cd.main
       
